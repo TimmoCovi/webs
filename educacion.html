@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Moises Corea">
+    <meta name="keywords" content="html,css,javascript,xml">
+    <meta name="description" content="hoja de vida de Moises Corea">
+    <title>Hoja de vida</title>
+  </head>
+  <body>
+    <header>
+      <svg width="100px" height="100px" viewBox="0 0 100 100">
+      <image width="100px" heigth="100px" xlink:href="img/Imagen.svg">Sorry, tu navegador no soporta SVG.</image>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h2>Moises Enrique Corea Villanueva</h2>
+      <h3>San Pedro Sula, Honduras C.A, 22/07/1988</h3>
+
+       <nav>
+         <ul>
+           <li><a href="../index.html">Inicio</a></li>
+           <li><a href="educacion.html">Educación</a></li>
+           <li><a href="../experiencia/experiencia.html">Experiencia</a></li>
+         </ul>
+       </nav>
+    </header>
+
+    <h2>Educación</h2>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>Culminó</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1994-2000</td>
+          <td>Esc. María Duran de Caracciolli (Primaria)</td>
+          <td>Choloma, Cortés</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2001-2003</td>
+          <td>Inst. Cristo Rey (Ciclo Común)</td>
+          <td>Choloma, Cortés</td>
+          <td>Si</td>
+        </tr><tr>
+          <td>2004-2005</td>
+          <td>Inst. Manuel Pagan Lozano (Cencias y Letras)</td>
+          <td>Choloma, Cortés</td>
+          <td>Si</td>
+        </tr>
+      </tr><tr>
+        <td>2014-2017</td>
+        <td>UNAH (Pasante de Ing. en Sistemas)</td>
+        <td>San Pedro Sula, Cortés</td>
+        <td>No</td>
+      </tr>
+      </tbody>
+    </table>
+
+     <h2>Agregar Estudios</h2>
+
+     <form class="" action="" method="">
+       <p>
+        <label for="año"><strong>Año</strong></label>
+        <select  name="año" id="año">
+          <option value="2010">2010</option>
+          <option value="2011">2011</option>
+          <option value="2012">2012</option>
+          <option value="2013">2013</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+        </select>
+       </p>
+
+       <p>
+        <label for="inst"><strong>Institución</strong></label>
+        <input type="text" name="inst" id="inst" required>
+       </p>
+
+       <p>
+         <label for="lugar"><strong>Lugar</strong></label>
+         <textarea name="lugar" id="lugar" rows="5" cols="19" required></textarea>
+       </p>
+
+       <p><strong>¿Culminó?</strong> <input type="radio" name="grupo" value="si">si
+         <input type="radio" name="grupo" value="no" >No</p>
+
+       <p><input type="submit" name="guardar" value="Guardar"></p>
+
+     </form>
+
+
+    <footer>
+     <p>@Derechos reservados</p>
+     <ul>
+       <li><strong>Email:</strong> <a href="mailto:moises.corea15@gmail.com">moises.corea15@gmail.com</a></li>
+       <li><strong>Teléfono:</strong>5042669-0858</li>
+       <li><strong>Dirección:</strong>San Pedro Sula, Cortés, Col. universidad, bloque 10, casa No.225</li>
+     </ul>
+
+    </footer>
+
+  </body>
